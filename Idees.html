@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planning – DEV</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <h1>&lt;DEV&gt;</h1>
+            </div>
+            <nav class="navigation">
+                <a href="index.html#home" class="nav-item">Home</a>
+                <a href="index.html#features" class="nav-item">Features</a>
+                <a href="Idees.html" class="nav-item">Idees</a>
+                <a href="index.html#about" class="nav-item">About</a>
+                <a href="index.html#contact" class="nav-item">Contact</a>
+            </nav>
+            <div class="theme-toggle" onclick="toggleTheme()"></div>
+        </div>
+    </header>
+
+      <section class="planning-section" id="planning">
+        <h2 class="section-title fade-in">Was ist Idees?</h2>
+        <div class="planning-description fade-in">
+            Coole Konzepte, frische Ideen und alles, was wir für dich möglich machen können. Schau rein!
+        </div>
+
+        <div class="accordion-container">
+            <div class="accordion-item fade-in">
+                <div class="accordion-header" onclick="toggleAccordion(this)">
+                    <div class="accordion-title">
+                        <div class="step-number">1</div>
+                        <span>Was kann dir Idees hilfen?</span>
+                    </div>
+                    <div class="accordion-icon">▼</div>
+                </div>
+                <div class="accordion-content">
+                    <div class="accordion-body">
+                        <p>Identifikation und Dokumentation aller funktionalen und nicht-funktionalen Anforderungen. 
+                           Stakeholder-Interviews und Marktforschung bilden die Grundlage für ein erfolgreiches Projekt.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item fade-in">
+                <div class="accordion-header" onclick="toggleAccordion(this)">
+                    <div class="accordion-title">
+                        <div class="step-number">2</div>
+                        <span>Kann ich auch ideen selber geben?</span>
+                    </div>
+                    <div class="accordion-icon">▼</div>
+                </div>
+                <div class="accordion-content">
+                    <div class="accordion-body">
+                        <p>Entwicklung einer umfassenden Projektstrategie mit klaren Zielen, Meilensteinen und Zeitrahmen. 
+                           Ressourcenplanung und Risikobewertung sind zentrale Komponenten dieser Phase.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item fade-in">
+                <div class="accordion-header" onclick="toggleAccordion(this)">
+                    <div class="accordion-title">
+                        <div class="step-number">3</div>
+                        <span>könntet ihr auch Datenbank programmieren?</span>
+                    </div>
+                    <div class="accordion-icon">▼</div>
+                </div>
+                <div class="accordion-content">
+                    <div class="accordion-body">
+                        <p>Erstellung einer robusten Systemarchitektur, die Skalierbarkeit, Wartbarkeit und Performance gewährleistet. 
+                           Technologie-Stack-Auswahl und Datenmodellierung stehen im Fokus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Idees Videos Section -->
+
+     <section class="idees2-section" id="idees2">
+
+        <h2 class="section-title fade-in">Login Page</h2>
+        <div class="idees2-description fade-in">
+            Das ist eine Beispiele Design für Login Page.
+        </div>
+
+    <div class="wrapper">
+        <div class="video-container">
+            <video id="mainVideo" autoplay muted loop>
+            <source src="LOGIN.mp4" type="video/mp4" />
+            Dein Browser unterstützt dieses Video nicht.
+            </video>
+        </div>
+    </div>
+        
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Über DEV</h4>
+                <p>Wir entwickeln innovative Softwarelösungen mit Fokus auf Qualität, Effizienz und Benutzererfahrung.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Schnellzugriff</h4>
+                <ul>
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#features">Features</a></li>
+                    <li><a href="Idees.html">Idees</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 DEV. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

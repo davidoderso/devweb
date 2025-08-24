@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><DEV></title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg"></div>
+
+    <!-- Floating Elements -->
+    <div class="floating-elements">
+        <div class="floating-element" style="left: 10%; animation-delay: 0s;"></div>
+        <div class="floating-element" style="left: 20%; animation-delay: 2s;"></div>
+        <div class="floating-element" style="left: 30%; animation-delay: 4s;"></div>
+        <div class="floating-element" style="left: 40%; animation-delay: 6s;"></div>
+        <div class="floating-element" style="left: 50%; animation-delay: 8s;"></div>
+        <div class="floating-element" style="left: 60%; animation-delay: 10s;"></div>
+        <div class="floating-element" style="left: 70%; animation-delay: 12s;"></div>
+        <div class="floating-element" style="left: 80%; animation-delay: 14s;"></div>
+        <div class="floating-element" style="left: 90%; animation-delay: 16s;"></div>
+    </div>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress"></div>
+
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <h1>&lt;DEV&gt;</h1>
+            </div>
+                <nav class="navigation">
+                    <a href="#home" class="nav-item">Home</a>
+                    <a href="#features" class="nav-item">Features</a>
+                    <a href="idees.html" class="nav-item">Idees</a>
+                    <a href="#about" class="nav-item">About</a>
+                    <a href="#contact" class="nav-item">Contact</a>
+                </nav>
+                <div class="theme-toggle" onclick="toggleTheme()"></div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <video class="hero-video" autoplay muted loop playsinline>
+            <source src="Hero.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-text">&lt;DEV&gt;</h1>
+            <p class="hero-subtitle">Moderne Entwicklung. Elegante Lösungen.</p>
+            <a href="Idees.html" class="hero-cta">Entdecken Sie mehr</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="content-section" id="features">
+        <h2 class="section-title">Vor- und Nachteile</h2>
+        
+        <div class="cards-container">
+            <!-- Vorteile Card -->
+            <div class="card fade-in">
+                <div class="card-header">
+                    <div class="card-icon">✓</div>
+                    <h3 class="card-title">Vorteile</h3>
+                </div>
+                <table class="card-table">
+                    <thead>
+                        <tr>
+                            <th>Vorteil</th>
+                            <th>Beschreibung</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Performance</td>
+                            <td>Optimierte Geschwindigkeit und Effizienz</td>
+                        </tr>
+                        <tr>
+                            <td>Skalierbarkeit</td>
+                            <td>Wächst mit Ihren Anforderungen</td>
+                        </tr>
+                        <tr>
+                            <td>Benutzerfreundlichkeit</td>
+                            <td>Intuitive und moderne Bedienung</td>
+                        </tr>
+                        <tr>
+                            <td>Sicherheit</td>
+                            <td>Höchste Sicherheitsstandards</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Nachteile Card -->
+            <div class="card fade-in">
+                <div class="card-header">
+                    <div class="card-icon">⚠</div>
+                    <h3 class="card-title">Nachteile</h3>
+                </div>
+                <table class="card-table">
+                    <thead>
+                        <tr>
+                            <th>Nachteil</th>
+                            <th>Beschreibung</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Lernkurve</td>
+                            <td>Anfängliche Einarbeitungszeit</td>
+                        </tr>
+                        <tr>
+                            <td>Komplexität</td>
+                            <td>Umfangreiche Konfigurationsmöglichkeiten</td>
+                        </tr>
+                        <tr>
+                            <td>Wartung</td>
+                            <td>Regelmäßige Updates erforderlich</td>
+                        </tr>
+                        <tr>
+                            <td>Ressourcen</td>
+                            <td>Höhere Systemanforderungen</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="content-section" id="about">
+        <h2 class="section-title">Über Uns</h2>
+        
+        <div class="about-content">
+            <div class="about-intro">
+                <p>Wir sind zwei leidenschaftliche Entwickler mit dem Ziel, individuelle und moderne Websites für unsere Kunden zu gestalten.
+                   Diese Website ist unser Schaufenster – hier zeigen wir, was wir können und wie wir arbeiten. 
+                   Egal ob kleine Unternehmensseite oder komplexe Web-App: Wir setzen Projekte zuverlässig um und stehen unseren Kunden auch nach dem Launch mit Support zur Seite – bei jedem Fehler, bei jeder Frage.
+                </p>
+            </div>
+
+            <div class="team-grid">
+                <div class="team-member fade-in">
+                    <div class="member-avatar">
+                        <div class="avatar-placeholder">👨‍💻🎨</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>David</h3>
+                        <p class="member-role">Developer</p>
+                        <p class="member-description">Webentwickler mit Erfahrung in Datenbanken. 
+                                                      Stark in der Planung von Website-Ideen – von der ersten Konzeption bis zur sauberen Umsetzung im Code.
+                        </p>
+                        <div class="member-skills">
+                            <span class="skill-tag">HTML,CSS,Javascript,PHP,SQL</span>
+                            <span class="skill-tag">Design,Planning</span>
+                            <span class="skill-tag">Datenbank,Backend</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-member fade-in">
+                    <div class="member-avatar">
+                        <div class="avatar-placeholder">👩‍💻🎨</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>San</h3>
+                        <p class="member-role">Developer</p>
+                        <p class="member-description">Webentwicklung mit Fokus auf modernes Design und stabile Datenbanklösungen.</p>
+                        <div class="member-skills">
+                            <span class="skill-tag">HTML,CSS,Javascript,PHP,SQL</span>
+                            <span class="skill-tag">Design,Figma,UX/UI</span>
+                            <span class="skill-tag">Datenbank,Backend</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="content-section" id="contact">
+        <h2 class="section-title">Kontakt</h2>
+        
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Sie brauchen eine Website oder Web-App?</h3>
+                <p>Schreiben Sie uns – wir entwickeln moderne, performante Lösungen genau nach Ihren Anforderungen.</p>
+                
+                <div class="contact-methods">
+                    <div class="contact-method fade-in">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-details">
+                            <h4>E-Mail</h4>
+                            <p>Dev@gmail.de</p>
+                        </div>
+                    </div>
+                
+                    <div class="contact-method fade-in">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h4>Adresse</h4>
+                            <p>Erfurt, Thüringen<br>Deutschland</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+               <div class="contact-form-container">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">E-Mail:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="company">Unternehmen:</label>
+                        <input type="text" id="company" name="company">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="project">Projekt Art:</label>
+                        <select id="project" name="project">
+                            <option value="">Bitte wählen</option>
+                            <option value="web-development">Web Entwicklung</option>
+                            <option value="mobile-app">Mobile App</option>
+                            <option value="other">Sonstiges</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Nachricht:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">
+                        <span class="btn-text">Nachricht senden</span>
+                        <span class="btn-icon">→</span>
+                    </button>
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>DEV Solutions</h4>
+                <p>Moderne Entwicklung. Elegante Lösungen.</p>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#">Web Development</a></li>
+                    <li><a href="#">Mobile Apps</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Unternehmen</h4>
+                <ul>
+                    <li><a href="#about">Über uns</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                    <li><a href="#">Karriere</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Rechtliches</h4>
+                <ul>
+                    <li><a href="#">Datenschutz</a></li>
+                    <li><a href="#">Impressum</a></li>
+                    <li><a href="#">AGB</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 DEV Solutions. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+
+    
